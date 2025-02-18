@@ -54,13 +54,13 @@ void loop(){
       delay(100);
         if (distance < 10){
           Serial.println(String("Jarak ") + String(distance) + String(" CM") + String(" Led ON"));
-          digitalWrite(ledPin, HIGH); // Menghidupkan LED
+          digitalWrite(ledPin, HIGH); 
 
-          delay(100); // Menunggu 1 detik
+          delay(100);
 
-          digitalWrite(ledPin, LOW); // Mematikan LED
+          digitalWrite(ledPin, LOW); 
 
-          delay(100); // Menunggu 1 detik
+          delay(100); 
         }else{
           Serial.println(String("Jarak ") + String(distance) + String(" CM") + String(" Led OFF"));
         }
@@ -68,13 +68,13 @@ void loop(){
     }else{
       if(suhu > 35){
         Serial.println(String("Suhu: ") + String(suhu) + String(" C") + String(" Led ON"));
-        digitalWrite(ledPin, HIGH); // Menghidupkan LED
+        digitalWrite(ledPin, HIGH); 
 
-          delay(100); // Menunggu 1 detik
+          delay(100); 
 
-          digitalWrite(ledPin, LOW); // Mematikan LED
+          digitalWrite(ledPin, LOW); 
 
-          delay(100); // Menunggu 1 detik
+          delay(100); 
       }else{
         Serial.println(String("Suhu: ") + String(suhu) + String(" C") + String(" Led OFF"));
       }
