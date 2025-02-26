@@ -5,9 +5,9 @@
 
 // auth
 
-#define BLYNK_TEMPLATE_ID "TMPL6o6WjC7zg"
-#define BLYNK_TEMPLATE_NAME "iotPertemuan4"
-#define BLYNK_AUTH_TOKEN "us2SPHxTYEl_ng21lD4asjN28qAAusB2"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 #include <Blynk.h>
 #include <ESP8266WiFi.h>
@@ -17,8 +17,8 @@
 // wifi
 #define BLYNK_PRINT Serial
 // ssid pass UNTUK WIFI
-char ssid[] = "LODAR";
-char pass[] = "AirHujaN$_12";
+char ssid[] = "";
+char pass[] = "";
 
 
 const int pinRelay = 5; // d1
